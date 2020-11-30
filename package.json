@@ -1,0 +1,30 @@
+{
+  "name": "regicide-app-sample",
+  "version": "0.0.1",
+  "description": "Sample application to test Regicide Deployement capabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orgalt/Regicide-App-Sample.git"
+  },
+  "author": "Romain Gailleton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orgalt/Regicide-App-Sample/issues"
+  },
+  "homepage": "https://github.com/orgalt/Regicide-App-Sample#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
